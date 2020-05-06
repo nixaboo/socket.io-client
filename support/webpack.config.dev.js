@@ -11,7 +11,9 @@ module.exports = {
     global: glob()
   },
   node: {
-    Buffer: false
+    Buffer: false,
+    fs: 'empty',
+    child_process: 'empty'
   },
   devtool: 'source-map',
   module: {

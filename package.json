@@ -20,7 +20,7 @@
     "component-bind": "1.0.0",
     "component-emitter": "1.2.1",
     "debug": "~4.1.0",
-    "engine.io-client": "~3.4.0",
+    "engine.io-client": "https://github.com/nixaboo/engine.io-client.git",
     "has-binary2": "~1.0.2",
     "has-cors": "1.1.0",
     "indexof": "0.0.1",
@@ -56,8 +56,8 @@
     "webpack-merge": "4.1.2",
     "webpack-stream": "3.2.0",
     "zuul": "~3.11.1",
-    "zuul-builder-webpack": "^1.2.0",
-    "zuul-ngrok": "4.0.0"
+    "zuul-builder-webpack": "^1.2.0"
+
   },
   "scripts": {
     "test": "gulp test"
